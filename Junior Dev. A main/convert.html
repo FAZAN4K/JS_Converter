@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Конвертер</title>
+</head>
+<body>
+    <section class="main-page">        
+        <form class="form">
+            <h2>КОНВЕРТЕР</h2>
+                <label class="select" for="convert-list">Выберите операцию: 
+                    <select id="convert-list">
+                        <option value="1">Килограмм -> Грамм</option>
+                        <option value="2">Килограмм -> Тонна</option>
+                        <option value="3">Тонна -> Килограмм</option>
+                        <option value="4">Грамм -> Килограмм</option>
+                        <option value="5">Сантиметр -> Дециметр</option>
+                        <option value="6">Сантиметр -> Метр</option>
+                        <option value="7">Дециметр -> Сантиметр</option>
+                        <option value="8">Метр -> Сантиметр</option>
+                        <option value="9">Километр -> Метр</option>
+                        <option value="10">Метр -> Километр</option>
+                    </select>
+                </label>
+                <input type="text" id="" class="input" placeholder="Начальное значение">
+                <input type="text" class="input result" placeholder="Результат" readonly>
+                <div class="selector">
+                <button class="button">Перевести</button>
+            </div>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
